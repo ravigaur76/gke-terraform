@@ -19,7 +19,7 @@
      location   = google_container_cluster.primary.location
      name       = "primary-node-pool"
 
-     node_count = 3
+     node_count = 1
 
      node_config {
        machine_type = "n1-standard-1"
